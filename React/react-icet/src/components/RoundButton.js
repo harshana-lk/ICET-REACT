@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 
 const RoundButton = (props) => {
   const btnFunction = () => {
@@ -7,7 +8,9 @@ const RoundButton = (props) => {
 
   return (
     <div>
-      <button onClick={btnFunction}>{props.name}</button>
+      <button onClick={btnFunction} className="btn-click">
+        {props.name}
+      </button>
     </div>
   );
 };

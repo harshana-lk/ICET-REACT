@@ -1,0 +1,9 @@
+.btn-click {
+  background-color: red;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 10px 10px;
+  border-radius: 35px;
+  border: 2px solid black;
+}
