@@ -1,9 +1,13 @@
 import React from "react";
 
 const RoundButton = (props) => {
+  const btnFunction = () => {
+    console.log("Hi");
+  };
+
   return (
     <div>
-      <button>{props.name}</button>
+      <button onClick={btnFunction}>{props.name}</button>
     </div>
   );
 };
