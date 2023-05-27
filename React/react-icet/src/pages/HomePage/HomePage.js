@@ -20,11 +20,12 @@ const HomePage = () => {
     createData("Cupcake", 305, 3.7, 67, 4.3),
     createData("Gingerbread", 356, 16.0, 49, 3.9),
   ];
+
   return (
     <div>
       "React Front-End"
       <h1>React Front-End</h1>
-      <Button variant="contained">Hello World</Button>
+      <Button variant="contained">Click Me</Button>
       <TableContainer component={Paper}>
         <Table sx={{ minWidth: 650 }} aria-label="simple table">
           <TableHead>
