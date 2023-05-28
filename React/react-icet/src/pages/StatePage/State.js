@@ -1,11 +1,17 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Button from "@mui/material/Button";
 
 const State = () => {
+  // State Creation
   const [name, setName] = useState("");
   const [address, setAddress] = useState("");
   const [age, setAge] = useState("");
   const [salary, setSalary] = useState("");
+
+  // useEffect Creation
+  useEffect(() => {
+    console.log("useEffect Called");
+  }, [name, address]);
 
   return (
     <div>
